@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Menu</title>
+    <style type="text/css">
+        .body {
+            background-color: white;
+        }
+
+        .table {
+            background-color: white;
+            overflow: hidden;
+            border-radius: 10px;
+            border: solid;
+            box-shadow: 0 5px 10px;
+            width: 1400px;
+            margin-left: -125px;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="dropdown">
+            <button class="dropbtn">Group</button>
+            <div *ngFor="let g of groups" class="dropdown-content">
+                <a href="/group/{{g?.id}}">{{g?.name}}</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Teacher</button>
+            <div *ngFor="let t of teachers" class="dropdown-content">
+                <a href="/teacher/{{t?.id}}">{{t?.lname}}</a>
+            </div>
+        </div>
+        <table class="table">
+            <h1>Timetable</h1>
+            <tr>
+                <td><b>Lesson</b></td>
+                <td><b>Type</b></td>
+                <td><b>Classroom</b></td>
+                <td><b>Group</b></td>
+                <td><b>Day</b></td>
+                <td><b>Start</b></td>
+                <td><b>End</b></td>
+                <td></td>
+            </tr>
+            <tbody>
+                <tr *ngFor="let s of schedules">
+                    <td>{{s?.subject}}</td>
+                    <td>{{s?.type}}</td>
+                    <td>{{s?.classroom.number}}</td>
+                    <td>{{s?.group.name}}</td>
+                    <td>{{s?.day.call}}</td>
+                    <td>{{s?.time.begin}}</td>
+                    <td>{{s?.time.end}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>

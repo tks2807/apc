@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\aituchallange\Timetable\Timetable\Timetable.Core\bin\Debug\netstandard2.0\Timetable.Core.deps.json
+C:\Users\Admin\Desktop\aituchallange\Timetable\Timetable\Timetable.Core\bin\Debug\netstandard2.0\Timetable.Core.dll
+C:\Users\Admin\Desktop\aituchallange\Timetable\Timetable\Timetable.Core\obj\Debug\netstandard2.0\Timetable.Core.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\aituchallange\Timetable\Timetable\Timetable.Core\obj\Debug\netstandard2.0\Timetable.Core.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\aituchallange\Timetable\Timetable\Timetable.Core\obj\Debug\netstandard2.0\Timetable.Core.AssemblyInfo.cs
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable.Core\bin\Debug\netstandard2.0\Timetable.Core.deps.json
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable.Core\bin\Debug\netstandard2.0\Timetable.Core.dll
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable.Core\obj\Debug\netstandard2.0\Timetable.Core.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable.Core\obj\Debug\netstandard2.0\Timetable.Core.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable.Core\obj\Debug\netstandard2.0\Timetable.Core.AssemblyInfo.cs
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable.Core\bin\Debug\netstandard2.0\Timetable.Core.pdb
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable.Core\obj\Debug\netstandard2.0\Timetable.Core.dll
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable.Core\obj\Debug\netstandard2.0\Timetable.Core.pdb
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable.Core\obj\Debug\netstandard2.0\Timetable.Core.csproj.CoreCompileInputs.cache
