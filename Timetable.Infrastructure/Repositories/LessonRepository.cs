@@ -25,6 +25,7 @@ namespace Timetable.Infrastructure.Repositories
                 .Include(les => les.Classroom)
                 .Include(les => les.Day)
                 .Include(les => les.Time)
+                .Include(les => les.Discipline)
                 .ToListAsync();
         }
         public async Task<List<Lesson>> GetLessonById(int lessonid)
@@ -35,40 +36,49 @@ namespace Timetable.Infrastructure.Repositories
                 .Include(les => les.Classroom)
                 .Include(les => les.Day)
                 .Include(les => les.Time)
+                .Include(les => les.Discipline)
                 .ToListAsync();
             return lessons;
         }
         public async Task<List<Lesson>> GetLessonByGroup(int groupid)
         {
-            var lessons = await context.Lesson.OrderBy(les => les.Id)
+            var lessons = await context.Lesson.OrderBy(les => les.DayId)
+                .OrderBy(les => les.TimeId)
                 .Where(les => les.GroupId == groupid)
                 .Include(les => les.Group)
                 .Include(les => les.Teacher)
                 .Include(les => les.Classroom)
                 .Include(les => les.Day)
                 .Include(les => les.Time)
+                .Include(les => les.Discipline)
                 .ToListAsync();
             return lessons;
         }
         public async Task<List<Lesson>> GetLessonByTeacher(int teacherid)
         {
-            var lessons = await context.Lesson.Where(les => les.TeacherId == teacherid)
+            var lessons = await context.Lesson.OrderBy(les => les.DayId)
+                .OrderBy(les => les.TimeId)
+                .Where(les => les.TeacherId == teacherid)
                 .Include(les => les.Group)
                 .Include(les => les.Teacher)
                 .Include(les => les.Classroom)
                 .Include(les => les.Day)
                 .Include(les => les.Time)
+                .Include(les => les.Discipline)
                 .ToListAsync();
             return lessons;
         }
         public async Task<List<Lesson>> GetLessonByClassroom(int classroomid)
         {
-            var lessons = await context.Lesson.Where(les => les.ClassroomId == classroomid)
+            var lessons = await context.Lesson.OrderBy(les => les.DayId)
+                .OrderBy(les => les.TimeId)
+                .Where(les => les.ClassroomId == classroomid)
                 .Include(les => les.Group)
                 .Include(les => les.Teacher)
                 .Include(les => les.Classroom)
                 .Include(les => les.Day)
                 .Include(les => les.Time)
+                .Include(les => les.Discipline)
                 .ToListAsync();
             return lessons;
         }

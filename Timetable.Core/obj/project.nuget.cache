@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qhxywzGZzumy5PJOfSsPASyubn9lR6CT2SAJoFLR/3XRASoE81OsynFFfWmPC9omoQyVgtf55KG3RN4UjEPNUA==",
+  "dgSpecHash": "zhQ78dXoGuOVMEjDo+36jN4lMoqzmsOzu8wj9bLkX5bShwd7PGsym7K1OR/AkpHQD4YobBG0+JCuP2W0m5yrHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable.Core\\Timetable.Core.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable\\Timetable.Core\\Timetable.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

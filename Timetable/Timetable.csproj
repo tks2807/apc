@@ -45,7 +45,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="ClientApp\src\app\timetable\classroom.component.ts" />
 	  <None Remove="ClientApp\src\app\timetable\day.ts" />
+	  <None Remove="ClientApp\src\app\timetable\discipline.ts" />
+	  <None Remove="ClientApp\src\app\timetable\format.pipe.ts" />
 	  <None Remove="ClientApp\src\app\timetable\teacher.component.ts" />
 	  <None Remove="ClientApp\src\app\timetable\time.ts" />
 	</ItemGroup>

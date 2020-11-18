@@ -15,5 +15,7 @@ namespace Timetable.Infrastructure.Context
         public DbSet<Student> Student { get; set; }
         public DbSet<Teacher> Teacher { get; set; }
         public DbSet<Group> Group { get; set; }
+        public DbSet<Day> Day { get; set; }
+        public DbSet<Time> Time { get; set; }
     }
 }

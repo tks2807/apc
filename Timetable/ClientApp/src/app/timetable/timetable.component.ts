@@ -22,6 +22,7 @@ export class TimetableComponent implements OnInit {
     id: number;
 
 
+
     constructor(private timetableservice: TimetableService, activeRoute: ActivatedRoute) {
         this.id = Number.parseInt(activeRoute.snapshot.params["id"]);
     }

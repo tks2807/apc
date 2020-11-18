@@ -1955,11 +1955,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable.Infrastructure\\Timetable.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable\\Timetable.Infrastructure\\Timetable.Infrastructure.csproj",
       "projectName": "Timetable.Infrastructure",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable.Infrastructure\\Timetable.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable\\Timetable.Infrastructure\\Timetable.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable\\Timetable.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1975,8 +1975,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable.Core\\Timetable.Core.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable.Core\\Timetable.Core.csproj"
+            "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable\\Timetable.Core\\Timetable.Core.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable\\Timetable.Core\\Timetable.Core.csproj"
             }
           }
         }

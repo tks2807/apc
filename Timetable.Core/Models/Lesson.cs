@@ -7,8 +7,8 @@ namespace Timetable.Core.Models
     public class Lesson
     {
         public int Id { get; set; }
-        public string Subject { get; set; }
-        public string Type { get; set; }
+        public Discipline Discipline { get; set; }
+        public int? DisciplineId { get; set; }
         public Classroom Classroom { get; set; }
         public int? ClassroomId { get; set; }
         public Teacher Teacher { get; set; }

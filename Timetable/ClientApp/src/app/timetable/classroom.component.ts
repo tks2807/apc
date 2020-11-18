@@ -8,11 +8,11 @@ import { Classroom } from './classroom';
 
 
 @Component({
-    selector: 'app-teacher',
-    templateUrl: './teacher.component.html',
+    selector: 'app-class',
+    templateUrl: './class.component.html',
     providers: [TimetableService]
 })
-export class TeacherComponent implements OnInit {
+export class ClassroomComponent implements OnInit {
 
     schedule: Timetable = new Timetable();
     schedules: Timetable[];
@@ -31,12 +31,12 @@ export class TeacherComponent implements OnInit {
         this.getAllGroups();
         this.getAllTeachers();
         if (this.id) {
-            this.getByTeacher(this.id);
+            this.getByClassroom(this.id);
         }
     }
 
-    getByTeacher(id: number) {
-        this.timetableservice.getByTeacher(this.id)
+    getByClassroom(id: number) {
+        this.timetableservice.getByClassroom(this.id)
             .subscribe((data: Timetable[]) => this.schedules = data);
     }
 
@@ -52,6 +52,4 @@ export class TeacherComponent implements OnInit {
         this.timetableservice.getAllClassrooms()
             .subscribe((data: Classroom[]) => this.classrooms = data);
     }
-
-   
 }
