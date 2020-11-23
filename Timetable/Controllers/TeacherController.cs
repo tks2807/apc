@@ -9,6 +9,7 @@ using Timetable.Core;
 using Timetable.Infrastructure;
 using AutoMapper;
 using Timetable.Core.DTOs;
+using Timetable.Core.Models;
 
 namespace Timetable.Controllers
 {
@@ -39,6 +40,17 @@ namespace Timetable.Controllers
             var teachers = await TeacherRepository.GetTeacher(teacherid);
             var teachersToReturn = Mapper.Map<IEnumerable<TeacherDTO>>(teachers);
             return teachers != null ? (IActionResult)Ok(teachersToReturn) : NoContent();
+        }
+
+        [HttpPost("createteacher")]
+        public async Task<IActionResult> CreateTeacher(Teacher teacher)
+        {
+            if (teacher == null)
+            {
+                return BadRequest();
+            }
+            await TeacherRepository.CreateTeacher(teacher);
+            return Accepted();
         }
     }
 }

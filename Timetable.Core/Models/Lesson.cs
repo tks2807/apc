@@ -19,5 +19,7 @@ namespace Timetable.Core.Models
         public int DayId { get; set; }
         public Time Time { get; set; }
         public int TimeId { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime IsRecursiveTill { get; set; }
     }
 }

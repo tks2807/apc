@@ -1,5 +1,4 @@
-﻿
-import { Classroom } from "./classroom";
+﻿import { Classroom } from "./classroom";
 import { Teacher } from "./teacher";
 import { Group } from "./group";
 import { Day } from "./day";
@@ -19,5 +18,7 @@ export class Timetable {
         public day?: Day,
         public dayid?: number,
         public time?: Time,
-        public timeid?: number,) { }
+        public timeid?: number,
+        public startDate?: Date,
+        public isRecursiveTill?: Date) { }
 }

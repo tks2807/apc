@@ -30,5 +30,11 @@ namespace Timetable.Infrastructure.Repositories
                 .ToListAsync();
             return lessons;
         }
+
+        public async Task CreateTeacher(Teacher item)
+        {
+            await context.Teacher.AddAsync(item);
+            await context.SaveChangesAsync();
+        }
     }
 }

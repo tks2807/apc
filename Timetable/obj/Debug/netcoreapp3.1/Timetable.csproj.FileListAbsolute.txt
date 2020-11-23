@@ -97,9 +97,6 @@ C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\bin\Debug\net
 C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\bin\Debug\netcoreapp3.1\Timetable.Core.pdb
 C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\bin\Debug\netcoreapp3.1\Timetable.Infrastructure.pdb
-C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\obj\Debug\netcoreapp3.1\Timetable.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\obj\Debug\netcoreapp3.1\Timetable.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\obj\Debug\netcoreapp3.1\Timetable.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\obj\Debug\netcoreapp3.1\Timetable.csproj.CopyComplete
 C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\obj\Debug\netcoreapp3.1\staticwebassets\Timetable.StaticWebAssets.Manifest.cache
 C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\obj\Debug\netcoreapp3.1\staticwebassets\Timetable.StaticWebAssets.xml
@@ -171,3 +168,16 @@ C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\Timetable\obj
 C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\Timetable\obj\Debug\netcoreapp3.1\Timetable.dll
 C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\Timetable\obj\Debug\netcoreapp3.1\Timetable.pdb
 C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\Timetable\obj\Debug\netcoreapp3.1\Timetable.genruntimeconfig.cache
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\bin\Debug\netcoreapp3.1\ExcelDataReader.dll
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\bin\Debug\netcoreapp3.1\ExcelDataReader.DataSet.dll
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\bin\Debug\netcoreapp3.1\ClosedXML.dll
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\bin\Debug\netcoreapp3.1\DocumentFormat.OpenXml.dll
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\bin\Debug\netcoreapp3.1\ExcelNumberFormat.dll
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\bin\Debug\netcoreapp3.1\System.Web.Http.Common.dll
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\obj\Debug\netcoreapp3.1\Timetable.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\obj\Debug\netcoreapp3.1\Timetable.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\Desktop\aituchallenge\Timetable\Timetable\Timetable\obj\Debug\netcoreapp3.1\Timetable.MvcApplicationPartsAssemblyInfo.cache

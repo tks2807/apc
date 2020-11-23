@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable\\Timetable.Core\\Timetable.Core.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable.Core\\Timetable.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable\\Timetable.Core\\Timetable.Core.csproj": {
+    "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable.Core\\Timetable.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable\\Timetable.Core\\Timetable.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable.Core\\Timetable.Core.csproj",
         "projectName": "Timetable.Core",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable\\Timetable.Core\\Timetable.Core.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable.Core\\Timetable.Core.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable\\Timetable.Core\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\aituchallenge\\Timetable\\Timetable\\Timetable.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,14 @@
               "target": "Package",
               "version": "[8.1.0, )"
             },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.95.3, )"
+            },
+            "ExcelDataReader.DataSet": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.9, )"
@@ -71,6 +79,10 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.8.0, )"
+            },
+            "System.Web.Http.Common": {
+              "target": "Package",
+              "version": "[4.0.20126.16343, )"
             }
           },
           "imports": [

@@ -10,5 +10,6 @@ namespace Timetable.Core.Interfaces
     {
         Task<IEnumerable<Teacher>> GetAll();
         Task<List<Teacher>> GetTeacher(int teacherid);
+        Task CreateTeacher(Teacher teacher);
     }
 }
